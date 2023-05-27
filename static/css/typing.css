@@ -1,0 +1,26 @@
+.typewriter-cursor {
+    position: relative;
+}
+
+.typewriter-cursor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    border: 1px solid white;
+    height: 100%;
+    animation: cursor-blink 500ms infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+         opacity: 0;
+    }
+
+    50% {
+         opacity: 1;
+    }
+
+    100% {
+         opacity: 0;
+    }
+}

@@ -1,0 +1,4 @@
+*.env
+/env
+/credits
+/node_modules
